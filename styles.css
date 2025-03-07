@@ -1,3 +1,71 @@
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 0px purple;  
+    color:slateblue;
+    letter-spacing: 2px;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:lightskyblue;
+    letter-spacing: 1px;
+}
+
+#container {
+    text-align: center;
+}
+
+#container img {
+    border-radius: 20px;
+}
+
+hr {
+    border-style: groove;
+    border-width: 2px;
+    border-color: dodgerblue;
+}
+
+.imgs {
+    display: flex; 
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 20px;
+    
+}
+
+.imgs img {
+    width: 500px;
+    aspect-ratio: 1/1;
+}
+
+h2 {
+    text-align: center;
+}
+
+#fact-title {
+    padding: 10px;
+    margin: 3px;
+}
+
+#fact-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.facts {
+    background-color: powderblue;
+    width: 35rem;
+    /* margin: auto; */
+    padding: 1rem;
+    border-width: 8px;
+    border-style: double;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    border-color: darkcyan;
+    margin: 1rem;
+}
+
+#pics {
+    text-align: center;
 }
